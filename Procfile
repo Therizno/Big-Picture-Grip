@@ -1,0 +1,1 @@
+web: python3 BPG_site/manage.py runserver
