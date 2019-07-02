@@ -130,3 +130,7 @@ SESSION_COOKIE_SECURE = True
 
 SECURE_BROWSER_XSS_FILTER = True
 
+
+#Force secure browsing
+
+SECURE_SSL_REDIRECT = True
