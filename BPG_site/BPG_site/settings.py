@@ -25,7 +25,7 @@ SECRET_KEY = 'p7)1*6^5nm20)iufy#mnzc(1t_xr6w3q9!69%-#7fkvupcvud('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.bigpicturegrip.com', 'big-picture-grip.herokuapp.com', 'bpgrip.com']
+ALLOWED_HOSTS = ['www.bigpicturegrip.com', 'big-picture-grip.herokuapp.com', 'www.bpgrip.com']
 
 
 # Application definition
