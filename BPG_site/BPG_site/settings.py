@@ -130,4 +130,8 @@ SESSION_COOKIE_SECURE = True
 
 SECURE_BROWSER_XSS_FILTER = True
 
+#Automatically redirect to https
+
+SECURE_SSL_REDIRECT = True
+
 
