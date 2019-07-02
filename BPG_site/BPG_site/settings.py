@@ -134,4 +134,8 @@ SECURE_BROWSER_XSS_FILTER = True
 
 SECURE_SSL_REDIRECT = True
 
+#Tells Django to trust https messages from proxy
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
