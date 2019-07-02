@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p7)1*6^5nm20)iufy#mnzc(1t_xr6w3q9!69%-#7fkvupcvud('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'www.bigpicturegrip.com', 'big-picture-grip.herokuapp.com']
 
@@ -129,4 +129,5 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
 SECURE_BROWSER_XSS_FILTER = True
+
 
