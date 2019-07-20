@@ -28,6 +28,22 @@
 		.w3-bar .w3-button {
 		  padding: 16px;
 		}
+		
+		.mobile-visible{
+			display:none;
+		}
+		
+		/* display different elements for mobile */
+		@media screen and (max-width: 481px){
+			
+			.desktop-visible{
+				display:none;
+			}
+			
+			.mobile-visible{
+				display:block;
+			}
+		}
 
 	</style>
 
@@ -36,38 +52,65 @@
 
 	<header class="bgimg-1 w3-display-container"> 
 	
-		<div class="w3-display-topleft w3-half" style="padding:24px">
+		<div class="w3-display-topleft w3-half" style="padding:24px; position:relative;">
 			
-			<img src="https://i.postimg.cc/zGVZzF9w/BPG-logo.png">
+			<img src="https://i.postimg.cc/zGVZzF9w/BPG-logo.png" style="width: 100%">
 			
 		</div>
+		
+		<div class="desktop-visible">
 
-		<div class="w3-display-topright w3-half" style="padding:24px">
+			<div class="w3-display-topright" style="padding:24px; position:relative;">
 
-			<div class="w3-right-align"><h4>Production ready grip packages for <br>commercials/promos/splinter and <br>second units</h2></div>
+				<div class="w3-right-align"><h4>Production ready grip packages for <br>commercials/promos/splinter and <br>second units</h4></div>
+
+					<p>
+						<a href="/Contact" class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off w3-right">Contact</a>
+
+						<a href="/About" class="w3-button w3-white w3-padding-large w3-large w3-margin-right w3-opacity w3-hover-opacity-off w3-right">About</a>
+					</p>
+
+				</div>
+
+			<div class="w3-display-bottomleft" style="padding:24px"> 
 
 				<p>
-					<a href="/Contact" class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off w3-right">Contact</a>
+					<a href="/3Ton" class="w3-button w3-white w3-padding-large w3-xlarge w3-opacity w3-hover-opacity-off w3-left">3 Ton</a>
 
-					<a href="/About" class="w3-button w3-white w3-padding-large w3-large w3-margin-right w3-opacity w3-hover-opacity-off w3-right">About</a>
+					<a href="/5Ton" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-left w3-opacity w3-hover-opacity-off w3-left">5 Ton</a>
+				</p>
+
+				<p>
+					<a href="http://e-slide.com/specs.html" target="_blank" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-top w3-opacity w3-hover-opacity-off w3-left" >Sliders</a>
+
+					<a href="/Giraffe" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-left w3-margin-top w3-opacity w3-hover-opacity-off w3-left">Giraffe Crane</a>
 				</p>
 
 			</div>
-
-		<div class="w3-display-bottomleft" style="padding:24px"> 
-
-			<p>
-				<a href="/3Ton" class="w3-button w3-white w3-padding-large w3-xlarge w3-opacity w3-hover-opacity-off w3-left">3 Ton</a>
-
-				<a href="/5Ton" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-left w3-opacity w3-hover-opacity-off w3-left">5 Ton</a>
-			</p>
-
-			<p>
-				<a href="http://e-slide.com/specs.html" target="_blank" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-top w3-opacity w3-hover-opacity-off w3-left" >Sliders</a>
-
-				<a href="/Giraffe" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-left w3-margin-top w3-opacity w3-hover-opacity-off w3-left">Giraffe Crane</a>
-			</p>
-
+		
+		</div>
+		
+		<div class="mobile-visible">
+		
+			<div style="padding:24px; text-align:center;">
+				<h4>Production ready grip packages for commercials/promos/splinter and second units</h4>
+				
+				<p>
+				<a href="/Contact" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-margin-bottom w3-margin-right w3-opacity w3-hover-opacity-off">Contact</a>
+				
+				<a href="/About" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-margin-bottom w3-opacity w3-hover-opacity-off">About</a>
+				</p>
+				
+				<p><a href="/3Ton" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-top w3-opacity w3-hover-opacity-off">3 Ton</a></p>
+				
+				<p><a href="/5Ton" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-top w3-opacity w3-hover-opacity-off">5 Ton</a></p>
+				
+				<p><a href="http://e-slide.com/specs.html" target="_blank" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-top w3-opacity w3-hover-opacity-off" >Sliders</a></p>
+				
+				<p><a href="/Giraffe" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-top w3-opacity w3-hover-opacity-off">Giraffe Crane</a></p>
+				
+			</div>
+		
 		</div>
 
 	</header>
